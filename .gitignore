@@ -6,10 +6,10 @@ __pycache__/
 .ipynb_checkpoints/
 
 # Donnees brutes volumineuses : conserver localement, ne pas publier
-script/time_series_60min_singleindex.csv
+data/time_series_60min_singleindex.csv
 
 # Resultats regenerables
-script/outputs/
+outputs/
 
 # Fichiers locaux
 .DS_Store

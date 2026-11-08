@@ -1,6 +1,8 @@
+from pathlib import Path
+
 import pandas as pd
 
-chemin = "time_series_60min_singleindex.csv"  # chemin du fichier téléchargé
+chemin = Path(__file__).parents[1] / "data" / "time_series_60min_singleindex.csv"
 
 def garder(col):
     return (col == "utc_timestamp"
