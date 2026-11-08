@@ -1,0 +1,16 @@
+# Environnement local et caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Donnees brutes volumineuses : conserver localement, ne pas publier
+script/time_series_60min_singleindex.csv
+
+# Resultats regenerables
+script/outputs/
+
+# Fichiers locaux
+.DS_Store
+*.log
